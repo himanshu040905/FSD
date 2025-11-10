@@ -1,4 +1,6 @@
+import Statehandling from './components/Statehandling.jsx';
 import Student from './Student.jsx';
+import ImageManipulation from './components/imagemanipulation.jsx';
 
 function App() {
   const student =[
@@ -32,9 +34,11 @@ function App() {
 
   return (
     <div>
-      {student.map((ele, index) => (
+      {/* {student.map((ele, index) => (
         <Student key={index} data={ele} />
-      ))}
+      ))} */}
+      {/* < Statehandling/> */}
+      <ImageManipulation/>
     </div>
   );
 }
